@@ -9,10 +9,10 @@ import codecs
 import random as rnd
 import threading 
 from datetime import datetime
-access_token = "997616701784186880-k2EbkftyYHNzmc5AqGRmD8qqgPoMJT1"
-access_token_secret = "DYst8olXxfLmRnmm3HFCbFcKdIgZdHm1GhhRNXRs9c27N"
-consumer_key =  "1i6ueQYdnUwOd3XkY7MDF6OuZ"
-consumer_secret = "nV6dGuF6prFLppZI955hTeZ9MdRZ9jTX54AdWkP8wpgmbEqfz1"
+access_token = ""
+access_token_secret = ""
+consumer_key =  ""
+consumer_secret = ""
 ser = serial.Serial("COM5", 9600)
 
 def getLGP():
